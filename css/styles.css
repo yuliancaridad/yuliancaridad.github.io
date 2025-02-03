@@ -43,3 +43,51 @@ margin-right: 10px;
 img.dibley {
     max-width: 100%
 }
+
+/* CSS GRID LAYOUT */
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.box1 {
+    grid-column: span 3;
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+}
+
+.box2 {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #FBE7A1;
+    padding: 20px;
+}
+
+.box3 {
+    grid-column: span 2;
+    background-color: #9CB380;
+    padding: 20px;
+}
+
+.box4 {
+    grid-column: span 1;
+    background-color: #B3D9FF;
+    padding: 20px;
+}
+
+.box5 {
+    grid-column: span 1;
+    background-color: #5A3EBA;
+    color: white;
+    padding: 20px;
+}
+
+.box6 {
+    grid-column: span 3;
+    background-color: #FF88CC;
+    padding: 20px;
+}
+
