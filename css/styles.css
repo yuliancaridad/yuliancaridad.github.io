@@ -44,9 +44,10 @@ img.dibley {
     max-width: 100%
 }
 
+/* CSS GRID LAYOUT */
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
 }
@@ -60,6 +61,7 @@ img.dibley {
 
 .box2 {
     grid-column: span 1;
+    grid-row: span 2;
     background-color: #FBE7A1;
     padding: 20px;
 }
