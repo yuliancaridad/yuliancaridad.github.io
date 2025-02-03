@@ -43,3 +43,51 @@ margin-right: 10px;
 img.dibley {
     max-width: 100%
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f8f3e8;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+}
+
+.one {
+    background-color: #9c3d38;
+    grid-column: 1 / 5;
+}
+
+.two {
+    background-color: #fae8a5;
+    grid-column: 1 / 2;
+}
+
+.three {
+    background-color: #a4c3a2;
+    grid-column: 2 / 5;
+}
+
+.four {
+    background-color: #b7d8f2;
+    grid-column: 2 / 3;
+}
+
+.five {
+    background-color: #6a5acd;
+    grid-column: 3 / 5;
+}
+
+.six {
+    background-color: #ff99cc;
+    grid-column: 1 / 5;
+}
+
