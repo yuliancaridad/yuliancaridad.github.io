@@ -35,8 +35,57 @@
 
 <main role="main" class="container-fluid">
     <h2>Carousel</h2>
-<!--Add carousel here-->
-
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="double_charboard.jpg" class="d-block w-100" alt="Double Charcuterie Boards">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Double Charcuterie Boards</h5>
+                <p>Double charcuterie boards for a large party.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="breakfast_charboard.jpg" class="d-block w-100" alt="Breakfast Charcuterie Board">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Breakfast Charcuterie Board</h5>
+                <p>A nutritional breakfast for two!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="halloween_charboard.jpg" class="d-block w-100" alt="Halloween Charcuterie Board">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Halloween Charcuterie Board</h5>
+                <p>A spooky board!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="xmas_charboard.jpg" class="d-block w-100" alt="X-Mas Charcuterie Board">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Holiday Charcuterie Board</h5>
+                <p>A festive board!</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+</div>
+    
 </main><!-- /.container -->
 
 <!-- Bootstrap core JavaScript
