@@ -50,14 +50,18 @@
     <script>
         const user = {
             name: 'Yulian Caridad',
-            imageUrl: '',
+            imageUrl: 'images/AboutPagePic.JPG',
             bio: 'Hi! My name is Yulian, but I prefer to go by Julian. I was born in Cuba, though I have lived in Florida for most of my life. My furry friend is a labrador/pitbull mix named Mocha. I am working on an associate degree in web design and development at Champlain College. I like the beach, hiking, coding, baking, and cooking for fun!'
         };
 
         // Step one - Create a React element
-
+    const h1Element = React.createElement('h1', null, user.name);
+    const imgElement = React.createElement('img', { src: user.imageUrl, alt: user.name, width: 200, height: 200 });
+    const pElement = React.createElement('p', null, user.bio);
         // Step 2: Render the React element
-
+    ReactDOM.render(h1Element, document.getElementById('h1'));
+    ReactDOM.render(imgElement, document.getElementById('img'));
+    ReactDOM.render(pElement, document.getElementById('content'));
     </script>
 
 </main><!-- /.container -->
