@@ -91,3 +91,30 @@ img.dibley {
     padding: 20px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+}
+
+footer {
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+}
+
